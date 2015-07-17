@@ -1,0 +1,10 @@
+D:\Development\Elern.Model\Elern.Model\bin\Debug\Elern.Model.dll.config
+D:\Development\Elern.Model\Elern.Model\bin\Debug\Elern.Model.dll
+D:\Development\Elern.Model\Elern.Model\bin\Debug\Elern.Model.pdb
+D:\Development\Elern.Model\Elern.Model\bin\Debug\EntityFramework.dll
+D:\Development\Elern.Model\Elern.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Development\Elern.Model\Elern.Model\bin\Debug\EntityFramework.xml
+D:\Development\Elern.Model\Elern.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Development\Elern.Model\Elern.Model\obj\Debug\Elern.Model.csprojResolveAssemblyReference.cache
+D:\Development\Elern.Model\Elern.Model\obj\Debug\Elern.Model.dll
+D:\Development\Elern.Model\Elern.Model\obj\Debug\Elern.Model.pdb
