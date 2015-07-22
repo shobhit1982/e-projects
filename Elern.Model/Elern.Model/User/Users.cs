@@ -5,13 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-namespace Elern.Model.User
+namespace Elern.Model
 {
     class Users : BaseClass
     {
         //common information
-        [Key]
-        public long UserId { get; set; }
+        
         [Required]
         public string Name { get; set; }
         [Required]

@@ -48,11 +48,16 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Common\PackageCategory.cs" />
+    <Compile Include="Common\MainMenu.cs" />
     <Compile Include="Common\PackageSubCategory.cs" />
     <Compile Include="Exam.cs" />
-    <Compile Include="Institute\Package.cs" />
-    <Compile Include="Institute\SubjectContent.cs" />
-    <Compile Include="Institute\Subjects.cs" />
+    <Compile Include="Institute\courses\chapter.cs" />
+    <Compile Include="Common\TransactionMaster.cs" />
+    <Compile Include="Institute\courses\Layout.cs" />
+    <Compile Include="Institute\courses\PageDetail.cs" />
+    <Compile Include="Institute\courses\PageType.cs" />
+    <Compile Include="Institute\Quiz\quizAnswer.cs" />
+    <Compile Include="Institute\Quiz\quizQustionMaster.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User\BaseClass.cs" />
     <Compile Include="User\Users.cs" />

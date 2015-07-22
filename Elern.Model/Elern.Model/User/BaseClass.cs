@@ -5,19 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Elern.Model.User
+namespace Elern.Model
 {
     class BaseClass
     {
-        
-        public IsDeleted Isdeleted { get; set; }
+        [Key]
+        public long Id { get; set; }
+        public bool Isdeleted { get; set; }
         public DateTime CreatedDt { get; set; }
         public DateTime UpdatedDt { get; set; }
     }
 
-    public enum IsDeleted
-    {
-        DeletedYes=1,
-        DeletedNo=0
-    }
+    
 }

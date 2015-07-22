@@ -8,11 +8,12 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Elern.Model.Common
 {
-    class PackageCategory: BaseClass
+    class PackageCategory
     {
-        [Key]
-        public long CategoryId { get; set; }
         [Required]
         [Display(Name = "Category")]
+        public long CategoryName { get; set; }
+
+        // Acdmices,Comptition,Profesional
     }
 }

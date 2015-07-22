@@ -8,16 +8,14 @@ using System.Threading.Tasks;
 
 namespace Elern.Model
 {
-    class PackageSubCategory :  BaseClass
+    class MainMenu : BaseClass
     {
         
         [Required]
-        [Display(Name = "Category")]
-        public virtual PackageCategory Id { get; set; }
-        [Required]
-        [Display(Name = "Sub Category")]
-        public string SubCategory { get; set; }
-
-
+        public string packageName { get; set; }
+        public string logo { get; set; }
+        public string links { get; set; }
     }
+
+    // Package Name like  :- Course , Test , Polls ,sarvey
 }
