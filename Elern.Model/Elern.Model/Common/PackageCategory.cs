@@ -8,7 +8,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Elern.Model.Common
 {
-    class PackageCategory
+    class PackageCategory : BaseClass
     {
         [Required]
         [Display(Name = "Category")]

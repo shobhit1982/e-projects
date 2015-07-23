@@ -8,3 +8,6 @@ D:\Development\Elern.Model\Elern.Model\bin\Debug\EntityFramework.SqlServer.xml
 D:\Development\Elern.Model\Elern.Model\obj\Debug\Elern.Model.csprojResolveAssemblyReference.cache
 D:\Development\Elern.Model\Elern.Model\obj\Debug\Elern.Model.dll
 D:\Development\Elern.Model\Elern.Model\obj\Debug\Elern.Model.pdb
+D:\New folder\e-project\Elern.Model\Elern.Model\obj\Debug\Elern.Model.csprojResolveAssemblyReference.cache
+D:\New folder\e-project\Elern.Model\Elern.Model\obj\Debug\Elern.Model.dll
+D:\New folder\e-project\Elern.Model\Elern.Model\obj\Debug\Elern.Model.pdb

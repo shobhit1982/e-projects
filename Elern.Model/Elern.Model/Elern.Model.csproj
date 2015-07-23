@@ -53,9 +53,13 @@
     <Compile Include="Exam.cs" />
     <Compile Include="Institute\courses\chapter.cs" />
     <Compile Include="Common\TransactionMaster.cs" />
+    <Compile Include="Institute\courses\CourseSetting.cs" />
     <Compile Include="Institute\courses\Layout.cs" />
     <Compile Include="Institute\courses\PageDetail.cs" />
     <Compile Include="Institute\courses\PageType.cs" />
+    <Compile Include="Institute\courses\CourseMaster.cs" />
+    <Compile Include="Institute\Quiz\QuizSetting.cs" />
+    <Compile Include="Institute\Quiz\quizMaster.cs" />
     <Compile Include="Institute\Quiz\quizAnswer.cs" />
     <Compile Include="Institute\Quiz\quizQustionMaster.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -64,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="student\" />
+    <Folder Include="User\User\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -17,6 +17,7 @@ namespace Elern.Model
         public string UploadFilePath { get; set; }
         public string uploadType{ get; set; }
 
+        public virtual quizMaster id { get; set; }
 
 
     }

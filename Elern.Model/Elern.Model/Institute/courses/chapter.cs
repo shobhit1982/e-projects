@@ -16,8 +16,8 @@ namespace Elern.Model
         public string logo { get; set; }
 
         public virtual Users id { get; set; }
-       
-        public virtual TransactionMaster Id { get; set; }
+        
+        public virtual CourseMaster Id { get; set; }
         public string Embbeded { get; set; }
         public string links { get; set; }
         public int layputId { get; set; }
