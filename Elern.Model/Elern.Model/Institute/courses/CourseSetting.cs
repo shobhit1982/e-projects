@@ -51,7 +51,7 @@ namespace Elern.Model.Institute.courses
 
         // *** Notifications
         public int Alert { get; set; } // Alert  1.Send me an email when someone takes my courses   2. Email to trainee when they complete this course.
-        //public int Alert { get; set; } // Notification via API
+        public int other { get; set; } // Notification via API
 
         // *** Price
         public int PriceType { get; set; }     //  1.free  2. Paid

@@ -17,9 +17,10 @@ namespace Elern.Model.Institute.courses
         public int QuestionsOrder { get; set; }    //Order of Questions ; 1.Do not shuffled  2.shuffled Question  3.shuffled answers 4.shuffled  question and answer
 
 
+
         //*** for Genral setting
         public int Attempts { get; set; }        //  Number of Attempts Allowed: 0 means Unlimited and 1 equal 1 and so on.
-        public bool SaveResume { get; set; }     //  Allow Save & Resume:
+        //public bool SaveResume { get; set; }     //  Allow Save & Resume:
         //public bool AutoplayVideo { get; set; }     // Autoplay Videos:
         //public bool CourseAvailability { get; set; }   // False : Always    true : Only on certain dates & time
         //public DateTime  CourseAvailStartDate { get; set; }  
