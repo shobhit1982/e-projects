@@ -1,11 +1,12 @@
 ﻿using Elern.Model.Common;
-
+using Elern.Model;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Elern.Model.User;
 
 namespace Elern.Model
 {
@@ -18,8 +19,8 @@ namespace Elern.Model
         //which type student is trageted
         public string targetstudent { get; set; }
 
-        public virtual PackageCategory id { get; set; }
-        public virtual PackageSubCategory id { get; set;}
+        //public virtual PackageCategory id { get; set; }
+       // public virtual PackageSubCategory id { get; set;}
 
         
 

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Elern.Model
+namespace Elern.Model.User
 {
     class BaseClass
     {
@@ -14,6 +14,7 @@ namespace Elern.Model
         public bool Isdeleted { get; set; }
         public DateTime CreatedDt { get; set; }
         public DateTime UpdatedDt { get; set; }
+        public virtual Users id { get; set; }
     }
 
     

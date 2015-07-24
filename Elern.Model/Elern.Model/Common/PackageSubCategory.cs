@@ -1,4 +1,6 @@
-﻿using Elern.Model.User;
+﻿using Elern.Model;
+using Elern.Model.Common;
+using Elern.Model.User;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;

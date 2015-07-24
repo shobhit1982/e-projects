@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Elern.Model;
+using Elern.Model.User;
+using Elern.Model.Institute.Quiz;
 
 namespace Elern.Model.Institute.courses
 {
@@ -11,15 +14,22 @@ namespace Elern.Model.Institute.courses
         public virtual CourseMaster Id { get; set; }
         public virtual Users Id { get; set; }
 
-        public int Scoringtype { get; set; }   //  1 for Assign Points to Quiz   2 Assign Points to each Question
-        public int QuizTotalPoints { get; set; }
+        public int Scoringtype { get; set; }   //  1 for Assign Points to Quiz   2 Assign Points to each Question ( in the quizQuestionMaster )
+        public int QuizTotalPoints { get; set; }  // total No assign eg 100 for all question
+        
         public int timeTocomplition { get; set; }    // in Minutes -- 0 unlimited time else equal to Value minutes
-        public int QuestionsOrder { get; set; }    //Order of Questions ; 1.Do not shuffled  2.shuffled Question  3.shuffled answers 4.shuffled  question and answer
+        public int QuizOrder { get; set; }    //Order of Questions ; 1.Do not shuffled  2.shuffled Question  3.shuffled answers 4.shuffled  question and answer
 
+
+        public int NoOfQuestions { get; set; }   // no of question in a set
+        public virtual ResultType typeId { get; set; }
 
 
         //*** for Genral setting
-        public int Attempts { get; set; }        //  Number of Attempts Allowed: 0 means Unlimited and 1 equal 1 and so on.
+        public int Attempts { get; set; }            //  Number of Attempts Allowed: 0 means Unlimited and 1 equal 1 and so on.
+        public string QuestionOnPage { get; set; }   
+        
+        
         //public bool SaveResume { get; set; }     //  Allow Save & Resume:
         //public bool AutoplayVideo { get; set; }     // Autoplay Videos:
         //public bool CourseAvailability { get; set; }   // False : Always    true : Only on certain dates & time
@@ -28,7 +38,7 @@ namespace Elern.Model.Institute.courses
         //public bool ChapterAvailability { get; set; }   // False : Always    true : Only on certain dates & time
         //public DateTime ChapterAvailStartDate { get; set; }
         //public DateTime ChapterAvailEndDate { get; set; }
-        public string logo { get; set; }
+        //public string logo { get; set; }
         //public bool AutoNoChapter { get; set; }        //  Automatically Number Chapter:
         //public int Sidebar { get; set; }                //Sidebar:             1.Disabled         2.Enabled      3. Minimized By default
         public int Exitbuttion { get; set; }            //Show "Exit" button:  1.NO exit Button   2. Exit to course startup page  3 exit

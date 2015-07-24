@@ -65,7 +65,7 @@ namespace Elern.Model.Institute.courses
 
         // *** Themes
         public string themes { get; set; }
-        public string logo { get; set; }
+        public string imglogo { get; set; }
         public string background { set; get; }
         public string fonts { set; get; }
         public string colorChapter { set; get; }

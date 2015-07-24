@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-namespace Elern.Model
+namespace Elern.Model.User
 {
     class Users : BaseClass
     {
