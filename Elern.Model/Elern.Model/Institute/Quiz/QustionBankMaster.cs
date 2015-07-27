@@ -19,8 +19,6 @@ namespace Elern.Model.Institute.Quiz
         public int  AssignMarks { get; set; }
         public  LevelType level { get; set; }
         public virtual PackageSubCategory id { get; set; }
-
-
     }
 
 

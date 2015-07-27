@@ -23,8 +23,7 @@ namespace Elern.Model.Institute.courses
 
         public int NoOfQuestions { get; set; }   // no of question in a set
         public virtual ResultType typeId { get; set; }
-
-
+        
         //*** for Genral setting
         public int Attempts { get; set; }            //  Number of Attempts Allowed: 0 means Unlimited and 1 equal 1 and so on.
         public string QuestionOnPage { get; set; }   

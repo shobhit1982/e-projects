@@ -14,5 +14,6 @@ namespace Elern.Model.Institute.Quiz
         public String image { get; set; }
         public int NoOfQuestion { get; set; }
         public int sequence { get; set; }
+
     }
 }

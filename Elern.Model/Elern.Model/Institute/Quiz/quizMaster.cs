@@ -21,8 +21,7 @@ namespace Elern.Model
 
         //public virtual PackageCategory id { get; set; }
        // public virtual PackageSubCategory id { get; set;}
-
-        
+                
 
         public string logo {get; set;}
 

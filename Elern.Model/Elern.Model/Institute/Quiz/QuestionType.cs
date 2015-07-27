@@ -10,5 +10,6 @@ namespace Elern.Model.Institute.Quiz
     class QuestionType : BaseClass
     {
         public string TypeName { get; set; }
+
     }
 }

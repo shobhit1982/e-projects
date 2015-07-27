@@ -14,5 +14,6 @@ namespace Elern.Model.Institute.Quiz
         public string typeText { get; set; }   // wright Grade : A , B , C, D,GOOD,EXCELLENT etc 
         public double MinMarks { get; set; }   // in %
         public double MaxMarks { get; set; }   // in %
+
     }
 }

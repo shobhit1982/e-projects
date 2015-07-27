@@ -19,5 +19,6 @@ namespace Elern.Model.Institute.Quiz
         Random=1,
         Selective=2,
         AlogrithemType=3
+
     }
 }

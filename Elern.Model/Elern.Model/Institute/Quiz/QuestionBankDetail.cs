@@ -14,6 +14,7 @@ namespace Elern.Model.Institute.Quiz
         public virtual QustionBankMaster id { get; set; }
         public string image { get; set; }
         public string matched { get; set; }
+
         
     }
 }
